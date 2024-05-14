@@ -13,10 +13,17 @@
 
 .link{
     text-decoration: none;
-    color: red;
+    color: black;
     margin: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 .link:hover{
-    color: red;
+    color: black;
+}
+
+#menü{
+    font-weight: bolder;
+    font-size: large;
 }
