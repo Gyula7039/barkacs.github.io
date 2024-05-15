@@ -7,8 +7,29 @@
 }
 
 .navbar{
+    flex-direction: column;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-image: url(img/background2.jpg);
-    text-align: left;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-right: 15px;
 }
 
 .link{
@@ -17,6 +38,8 @@
     margin: 10px;
     font-weight: bolder;
     font-size: 20px;
+    background-color: lightblue;
+    border-radius: 10%;
 }
 
 .link:hover{
