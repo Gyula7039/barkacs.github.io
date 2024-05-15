@@ -54,3 +54,14 @@
     font-weight: bolder;
     font-size: large;
 }
+
+.cim{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
