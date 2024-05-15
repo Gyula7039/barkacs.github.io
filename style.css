@@ -1,8 +1,7 @@
 .logo{
     margin-top: 1%;
-    margin-bottom: 1%;
     margin-left: 1%;
-    width:80px;
+    width:auto;
     height:80px;
 }
 
@@ -35,12 +34,16 @@
 .link{
     text-decoration: none;
     color: black;
-    margin: 20px;
-    padding: 20px;
     font-weight: bolder;
     font-size: 20px;
-    background-color: lightblue;
+    background-color: rgba(202, 202, 202, 0.575);
     border-radius: 7%;
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    text-align: center;
 }
 
 .link:hover{
