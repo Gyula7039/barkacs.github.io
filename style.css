@@ -1,8 +1,12 @@
 body{
-    background-image: url(img/4853433.jpg);
+    background-image: url(img/wallpaperflare.com_wallpaper.jpg);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
+}
+
+.tartalom{
+    font-size: 20px;
 }
 
 .logo{
@@ -68,3 +72,7 @@ body{
     flex-direction: row;
     align-items: center;
     }
+
+p{
+    font-size: 20px;
+}
