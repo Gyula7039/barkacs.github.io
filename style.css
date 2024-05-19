@@ -1,3 +1,10 @@
+body{
+    background-image: url(img/4853433.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
 .logo{
     margin-top: 1%;
     margin-left: 1%;
@@ -11,14 +18,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(img/background2.jpg);
-
   }
 
   nav {
     display: flex;
     justify-content: space-between;
     align-items:center;
+    background-color: white;
   }
 
   .navbar-toggler-icon {
@@ -34,10 +40,9 @@
 
 .link{
     text-decoration: none;
-    color: #842029;
     font-weight: bolder;
     font-size: 20px;
-    background-color: rgba(202, 202, 202, 0.575);
+
     border-radius: 7%;
     display: block;
     margin: 10px;
@@ -45,6 +50,7 @@
     text-transform: uppercase;
     border-radius: 10%;
     text-align: center;
+    color:cadetblue;
 }
 
 #menü{
