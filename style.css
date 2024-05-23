@@ -2,7 +2,7 @@ body{
     background-image: url(img/wallpaperflare.com_wallpaper.jpg);
     height: 100%;
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 }
 
 .tartalom{
