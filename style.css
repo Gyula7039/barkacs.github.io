@@ -55,9 +55,14 @@ body{
     transition: background-color 0.3s ease;
 }
 
-.link:active {
+.link:hover {
     background-color: lightgray;
+    transform: scale(1.1);
   }
+
+.link:active{
+  transform: scale(0.9);
+}
 
 #menü{
     font-weight: bolder;
